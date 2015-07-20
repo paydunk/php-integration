@@ -53,7 +53,6 @@ function CallAPI($method, $url, $data = false){
 $transaction_uuid = $_POST['transaction_uuid'];
 if (isset($transaction_uuid)) {
 	$url = "https://api.paydunk.com/api/v1/transactions/".$transaction_uuid;
-	CallAPI("PUT", $url, $bodyparams);
-	header("Location: test2.html?".$_POST['email']);	
+	CallAPI("PUT", $url, $bodyparams);	
 }
 ?>
