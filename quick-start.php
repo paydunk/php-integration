@@ -1,6 +1,6 @@
 <?php
 /*
-/* be sure to update the status, client_id and client_secret values (lines 31, 35 and 36)!
+/* be sure to update the status, client_id (App ID) and client_secret (App Secret) values on lines 31, 35 and 36!
 /* run your transaction here using the following information POSTED from the Paydunk API
 
 -"expiration_date": "01/20", // string - expiration date on card. Format: MM/YY
